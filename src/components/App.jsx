@@ -51,9 +51,9 @@ export class App extends Component {
   };
 
   handleInputChange = event => {
-    this.setState({
+    this.setState(prevState => ({
       filter: event.target.value,
-    });
+    }));
   };
 
   getVisibleContacts = () => {

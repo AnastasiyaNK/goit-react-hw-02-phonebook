@@ -23,6 +23,7 @@ export class ContactForm extends Component {
 
   render() {
     const { name, number } = this.state;
+
     return (
       <div className={css.containerForm}>
         <h1 className={css.titltForm}>Phonebook</h1>
